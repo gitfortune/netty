@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  thymeleaf:
+      cache: false
+      prefix: classpath:/templates/
+      suffix: .html
+      encoding: utf-8
+      mode: HTML5
+      servlet:
+        content-type: text/html
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
